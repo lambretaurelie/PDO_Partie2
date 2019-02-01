@@ -11,7 +11,7 @@ class appointments {
 //protection contre l'erreur
 //si il n'y a pas d'erreur
         try {
-            $this->db = new PDO('mysql:host=hospital;dbname=hospitalE2N;charset=utf8', 'lambret', 'GORDONroxie');
+            $this->db = new PDO('mysql:host=hospital;dbname=hospitalE2N;charset=utf8', 'lambret', 'xxxxx');
 //si il y a une erreur
         } catch (Exception $ex) {
             $ex->getMessage();
